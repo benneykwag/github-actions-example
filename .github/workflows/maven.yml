@@ -58,8 +58,6 @@ jobs:
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v2
-        with:
-          name: devops-integration
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.5.4
         with:
