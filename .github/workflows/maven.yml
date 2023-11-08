@@ -57,7 +57,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: devops-integration
-        path: build/*.jar
+        path: target/*.jar
 
           
   deploy:
